@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // para usar binding, primer debes hacer la linea 16 y 17 :D
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val navBar = binding.mainNavBar
